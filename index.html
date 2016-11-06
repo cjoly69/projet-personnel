@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <!-- <link rel="icon" href="favicon.ico"> -->
+    <title>Math</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:700" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--                  navigation               -->
+    <nav>
+        <div class="header">
+            <button class="js-menu-show header__menu-toggle material-icons">menu</button>
+            <form class="right" action="index.html" method="post">
+                <input id="search" type="texte" name="search" value="Recherche...">
+            </form>
+        </div>
+
+    </nav>
+    <aside class="js-side-nav side-nav">
+        <nav class="js-side-nav__container side-nav__container">
+            <button class="js-menu-hide side-nav__hide material-icons">close</button>
+            <header class="side-nav__header">
+                Menu
+            </header>
+            <ul class="side-nav__content">
+                <li class="dropdown"><a href="#">Niveaux</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Niveau 6e</a></li>
+                        <li><a href="#">Niveau 5e</a></li>
+                        <li><a href="#">Niveau 4e</a></li>
+                        <li><a href="#">Niveau 3e</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Chapitres</a></li>
+                <li><a href="#">Télécharger</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <!--             fin de la partie navigation   -->
+
+    <main class="ctn">
+        <h1>Gestionnaire de compétences</h1>
+        <hr>
+
+        <!--              champs création               -->
+        <section class="centrer">
+                <form class="" action="" method="">
+                    <input type="text" name="chapitre" value="Titre du nouveau chapitre">
+                    <button type="button" name="button">Créer</button>
+                </form>
+
+            <form class="" action="" method="">
+                <input type="number" name="nbcomp" min="0" value="0">
+                <button type="button" name="button">+ nombre de compétences</button>
+            </form>
+        </section>
+
+        <!--           fin champs création               -->
+
+        <section class="centrer">
+            <button class="accordion">Chapitre 1</button>
+            <div class="panel">
+                <label><input type="checkbox" id="cbox1" value="premiere_checkbox"> compréhension1</label><br>
+
+                <input type="checkbox" id="cbox2" value="deuxieme_checkbox"> <label for="cbox2"> compréhension2</label>
+            </div>
+
+            <button class="accordion">Chapitre 2</button>
+            <div class="panel">
+                <label><input type="checkbox" id="cbox1" value="premiere_checkbox"> compréhension1</label><br>
+
+                <input type="checkbox" id="cbox2" value="deuxieme_checkbox"> <label for="cbox2"> compréhension2</label>
+            </div>
+
+            <button class="accordion">Chapitre 3</button>
+            <div class="panel">
+                <label><input type="checkbox" id="cbox1" value="premiere_checkbox"> compréhension1</label><br>
+
+                <input type="checkbox" id="cbox2" value="deuxieme_checkbox"> <label for="cbox2"> compréhension2</label>
+            </div>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="js/traitement.js"></script>
+    <script src="js/side-nav.js"></script>
+
+</body>
+
+</html>
