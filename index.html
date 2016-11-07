@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -63,8 +63,8 @@
         <!--              champs création               -->
         <section class="centrer">
                 <form class="" action="" method="">
-                    <input type="text" name="chapitre" value="Titre du nouveau chapitre">
-                    <button type="button" name="button">Créer</button>
+                    <input type="text" name="chapitre" id="titre" placeholder="Titre du nouveau chapitre">
+                    <button type="button" name="button" onclick="ajouteChap()">Créer</button>
                 </form>
 
             <form class="" action="" method="">
@@ -76,26 +76,27 @@
         <!--           fin champs création               -->
 
         <section class="centrer">
-            <button class="accordion">Chapitre 1</button>
+            <button class="accordion">Chapitre 1 <i class="material-icons">keyboard_arrow_down</i></button>
             <div class="panel">
                 <label><input type="checkbox" id="cbox1" value="premiere_checkbox"> compréhension1</label><br>
 
                 <input type="checkbox" id="cbox2" value="deuxieme_checkbox"> <label for="cbox2"> compréhension2</label>
             </div>
 
-            <button class="accordion">Chapitre 2</button>
+            <button class="accordion">Chapitre 2 <i class="material-icons">keyboard_arrow_down</i></button>
             <div class="panel">
                 <label><input type="checkbox" id="cbox1" value="premiere_checkbox"> compréhension1</label><br>
 
                 <input type="checkbox" id="cbox2" value="deuxieme_checkbox"> <label for="cbox2"> compréhension2</label>
             </div>
 
-            <button class="accordion">Chapitre 3</button>
+            <button class="accordion">Chapitre 3 <i class="material-icons">keyboard_arrow_down</i></button>
             <div class="panel">
                 <label><input type="checkbox" id="cbox1" value="premiere_checkbox"> compréhension1</label><br>
 
                 <input type="checkbox" id="cbox2" value="deuxieme_checkbox"> <label for="cbox2"> compréhension2</label>
             </div>
+            <!-- <button class="accordion chapitre"></button> -->
         </section>
     </main>
 

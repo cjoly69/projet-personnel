@@ -92,6 +92,9 @@ input[type=number] {
 	padding: 12px 20px;
 	margin: 8px 0;
 }
+i{
+  float: right;
+}
 button{
 padding: 12px 20px;
 margin: 8px 0;
@@ -246,9 +249,10 @@ padding-bottom: 2%;
 
 .dropdown-content {
     display: none;
+    left: 0;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    width: 100%;
 }
 
 .dropdown-content a {
