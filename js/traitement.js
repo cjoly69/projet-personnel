@@ -16,6 +16,6 @@ function ajouteChap(){
   var button = document.createElement('button');
   var titre = document.getElementById('titre');
   button.innerText = titre.value;
-  document.body.appendChild(button);
+  document.querySelector(".new").appendChild(button);
   titre.value = '';
 }
