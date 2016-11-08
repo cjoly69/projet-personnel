@@ -269,7 +269,7 @@ padding-bottom: 2%;
 
 /* accordéon */
 
-button.accordion {
+.accordion {
     background-color: #eee;
     color: #444;
     cursor: pointer;
