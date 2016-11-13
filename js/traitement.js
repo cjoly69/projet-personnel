@@ -19,3 +19,16 @@ function ajouteChap(){
   document.querySelector(".new").appendChild(button);
   titre.value = '';
 }
+
+//compétences
+function ajouteComp(){
+  var comp = document.getElementsByClassName('competence');
+  var button = document.createElement('input');
+  var titreComp = document.getElementById('competence');
+  input.innerText = titreComp.value;
+  document.querySelector(".new").appendChild(input);
+  titreComp.value = '';
+}
+
+  // ajouteChap();
+  // ajouteComp();
