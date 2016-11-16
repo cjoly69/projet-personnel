@@ -1,0 +1,77 @@
+[
+{
+"niveaux":
+	{
+	"4e" :
+		{
+		"chapitres":
+			{
+			"Chapitre 1" :
+				{
+				"competences" :
+					{
+					"competence" :
+						{
+						"titre" : "comprehension 11",
+						"etat" : "true"
+						},
+					"competence" :
+						{
+						"titre" : "comprehension 12",
+						"etat" : "false"
+						}
+					}
+				},
+			"Chapitre 2" :
+				{
+				"competences" :
+					{
+					"comprehension 21" :
+						{
+						"etat" : "true"
+						},
+					"comprehension 22" :
+						{
+						"etat" : "false"
+						}
+					}
+				}
+			}
+		},
+	"3e" :
+		{
+		"chapitres":
+			{
+			"Chapitre 1" :
+				{
+				"competences" :
+					{
+					"comprehension 11" :
+						{
+						"etat" : "true"
+						},
+					"comprehension 12" :
+						{
+						"etat" : "false"
+						}
+					}
+				},
+			"Chapitre 2" :
+				{
+				"competences" :
+					{
+					"comprehension 21" :
+						{
+						"etat" : "true"
+						},
+					"comprehension 22" :
+						{
+						"etat" : "false"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+]

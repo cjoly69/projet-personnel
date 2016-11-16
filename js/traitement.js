@@ -1,13 +1,16 @@
 // accordion
-var acc = document.getElementsByClassName("accordion");
-var i;
+function accordion(){
+  var acc = document.getElementsByClassName("accordion");
+  var i;
 
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-        this.classList.toggle("active");
-        this.nextElementSibling.classList.toggle("show");
-    }
+  for (i = 0; i < acc.length; i++) {
+      acc[i].onclick = function(){
+          this.classList.toggle("active");
+          this.nextElementSibling.classList.toggle("show");
+      }
+  }
 }
+
 
 //chapitres
 
@@ -17,6 +20,7 @@ function ajouteChap(){
   var titre = document.getElementById('titre');
   button.innerText = titre.value;
   document.querySelector(".new").appendChild(button);
+  accordion();
   titre.value = '';
 }
 
@@ -34,10 +38,11 @@ function ajouteChap(){
   // ajouteComp();
 
   //INITIALISATION ADAPTER L URL v
-  getChapters("basededonnees.txt");
+  getChapters("basededonnees.json");
+  // getChapters("niveau3.csv");
 
 
-  //RECUPERATION DE DONNEES SUR UN FICHIER TXT AVEC JSON
+  //RECUPERATION DE DONNEES SUR UN FICHIER JSON AVEC JSON
   function getChapters(url){
 
   	var xmlhttp = new XMLHttpRequest();
@@ -72,9 +77,9 @@ function ajouteChap(){
       	document.getElementById("liste_chapitres").innerHTML += '<button class="accordion">' + chapter + '</button>' + '<div class="panel">' ;
       	for(competence in chapterArray[chapter]["competences"]){
       		i++;
-      		//VOIR PROBLEME AVEC L'ATTRIBUT CHECKED TOUJOURS TRUE
-      		document.getElementById("liste_chapitres").innerHTML += '<input type="checkbox" id="cbox' + i + '" value="deuxieme_checkbox" checked=' + competence["etat"]  + '> <label for="cbox' + i +' "> '+ competence  +'</label></br>';
+      		//VOIR PROBLEME AVEC L'ATTRIBUT CHECKED TOUJOURS TRUE : checked=' + competence["etat"]
+      		document.getElementById("liste_chapitres").innerHTML += '<input type="checkbox" id="cbox' + i + '" value="deuxieme_checkbox" '  + '/> <label for="cbox' + i +' "> '+ competence  +'</label></br>';
   	   	}
   	   	document.getElementById("liste_chapitres").innerHTML += '</div>'
-      }
+      }accordion();
   }
