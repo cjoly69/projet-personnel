@@ -12,7 +12,7 @@ function accordion() {
 }
 
 //INITIALISATION ADAPTER L URL v
-getChapters("basededonnees.json");
+getChapters("bdd.txt");
 // getChapters("niveau3.csv");
 
 
@@ -68,13 +68,13 @@ function generateChapter(arrayJSONObj) {
         document.getElementById(idpan).innerHTML += '</div>';
 
     }
-    //ajout des chapitres créé sur le local storage
-    if(typeof(Storage) !== "undefined") {
-        if (localStorage.savedChapters) {
-            document.getElementById("liste_chapitres").innerHTML += localStorage.savedChapters;
-        }
-    }
-    
+    // //ajout des chapitres créé sur le local storage
+    // if(typeof(Storage) !== "undefined") {
+    //     if (localStorage.savedChapters) {
+    //         document.getElementById("liste_chapitres").innerHTML += localStorage.savedChapters;
+    //     }
+    // }
+
     //j'appelle la fonction pour l'appel au click
     return accordion();
 }

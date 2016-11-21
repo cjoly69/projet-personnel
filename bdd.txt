@@ -1,0 +1,173 @@
+[
+{
+"niveaux":
+	{
+	"3e" :
+		{
+		"chapitres":
+			{
+			"Général" :
+				{
+				"competences" :
+					{
+					"lire et comprendre un énoncé" :
+						{
+						"etat" : "true"
+						},
+					"utiliser ses compétences dans un problème" :
+						{
+						"etat" : "false"
+						},
+					"Orthographe" :
+						{
+						"etat" : "false"
+						},
+					"résoudre le problème" :
+						{
+						"etat" : "false"
+						},
+					"rédiger" :
+						{
+						"etat" : "false"
+						}
+					}
+				},
+			"1- Nombres premiers,Critères de divisibilité" :
+				{
+				"competences" :
+					{
+					"definition d'un nombre premier" :
+						{
+						"etat" : "true"
+						},
+					"Vérifier si un nombre est premier" :
+						{
+						"etat" : "false"
+						},
+					"Décomposer en produit de facteurs premiers" :
+						{
+						"etat" : "false"
+						},
+					"Trouver le plus grand commun diviseur" :
+						{
+						"etat" : "false"
+						},
+					"Réduire une fraction" :
+						{
+						"etat" : "false"
+						}
+					}
+				},
+			"2- Algorithmes" :
+				{
+				"competences" :
+					{
+					"Comprendre un programme simple" :
+						{
+						"etat" : "true"
+						},
+					"Ecrire un programme simple" :
+						{
+						"etat" : "false"
+						},
+					"Utiliser boucle de répétition simple" :
+						{
+						"etat" : "false"
+						},
+					"Utiliser boucle de répétition conditionnelle" :
+						{
+						"etat" : "false"
+						},
+					"Utiliser variables" :
+						{
+						"etat" : "false"
+						},
+					"Utiliser blocs d'instructions" :
+						{
+						"etat" : "false"
+						}
+					}
+				},
+			"3- Calculer et interpréter des caractéristiques" :
+				{
+				"competences" :
+					{
+					"Calculer une moyenne" :
+						{
+						"etat" : "true"
+						},
+					"Déterminer une médiane" :
+						{
+						"etat" : "false"
+						},
+					"Calculer une étendue" :
+						{
+						"etat" : "false"
+						},
+					"Interpréter des résultats" :
+						{
+						"etat" : "false"
+						}
+					}
+				},
+			"4- Utiliser la trigonométrie" :
+				{
+				"competences" :
+					{
+					"Connaitre les formules" :
+						{
+						"etat" : "true"
+						},
+					"Calculer un côté" :
+						{
+						"etat" : "false"
+						},
+					"calculer un angle" :
+						{
+						"etat" : "false"
+						}
+					}
+				},
+			"5- Mémo transformations" :
+				{
+				"competences" :
+					{
+					"Démontrer avec les propriétés des parallélogrammes" :
+						{
+						"etat" : "true"
+						},
+					"Construire un parallélogramme" :
+						{
+						"etat" : "false"
+						},
+					"Utiliser propriétés de la symétrie pour démontrer" :
+						{
+						"etat" : "false"
+						},
+					"Construire une image par symétrie" :
+						{
+						"etat" : "false"
+						},
+					"Reconnaitre une translation" :
+						{
+						"etat" : "false"
+						},
+					"Reconnaitre une rotation" :
+						{
+						"etat" : "false"
+						},
+					"Construire une image par translation" :
+						{
+						"etat" : "false"
+						},
+					"Construire une image par rotation" :
+						{
+						"etat" : "false"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+]
