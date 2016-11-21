@@ -165,6 +165,52 @@
 						"etat" : "false"
 						}
 					}
+				},
+			"6- Utiliser le calcul littéral pour résoudre ou démontrer" :
+				{
+				"competences" :
+					{
+					"Développer par distributivité" :
+						{
+						"etat" : "true"
+						},
+					"Factoriser par facteur commun" :
+						{
+						"etat" : "false"
+						},
+					"Connaitre les identités remarquables (IR)" :
+						{
+						"etat" : "false"
+						},
+					"Developper avec IR" :
+						{
+						"etat" : "false"
+						},
+					"Factoriser avec IR" :
+						{
+						"etat" : "false"
+						},
+					"Transcrire un problème en équations" :
+						{
+						"etat" : "false"
+						},
+					"Résoudre une équation du premier degré" :
+						{
+						"etat" : "false"
+						},
+					"Transcrire un problème en inéquations" :
+						{
+						"etat" : "false"
+						},
+					"Résoudre une inéquation du premier degré" :
+						{
+						"etat" : "false"
+						},
+					"Savoir désigner des nombres " :
+						{
+						"etat" : "false"
+						}
+					}
 				}
 			}
 		}
